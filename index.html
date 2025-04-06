@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VishvaProductions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <img src="images/logo.jpg" alt="logo image" class="logo" loading="lazy">
+
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a class="navbar-link home-link" href="#">Home</a></li>
+                <li><a class="navbar-link about-link" href="/about.html">About</a></li>
+                <li><a class="navbar-link services-link" href="/services.html">Services</a></li>
+                <li><a class="navbar-link portfolio-link" href="/portfolio.html">Portfolio</a></li>
+                <li><a class="navbar-link contact-link" href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+    </header>
+
+    <!-- ====================
+Main Hero Section Start
+==================== -->
+
+    <main>
+        <section class="section-hero section">
+            <div class="container grid grid-two-column">
+                <div class="section-hero-data">
+                    <p class="hero-top-data">this is me</p>
+                    <h1 class="hero-heading">Vishvas Solanki</h1>
+                    <p class="hero-para">I am Vishvas Solanki. A full stack web developer and freelancer. Professional
+                        web app builder using <span class="mern">MERN</span> stack.</p>
+                    <div>
+                        <a href="#" class="btn hireme-btn">Hire me</a>
+                    </div>
+                </div>
+                <div class="section-hero-image">
+                    <img src="images/hero5.jpg" loading="lazy" alt="Hero Image" class="hero-image">
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- ====================
+ Bio-Data Section Start
+==================== -->
+
+    <section class="section-biodata section">
+        <div class="container grid grid-two-column">
+            <div class="bio-image">
+                <img src="images/bio1.jpg" loading="lazy" alt="Bio-data section image">
+            </div>
+            <!-- bio right side data  -->
+            <div class="bio-data">
+                <h2 class="common-heading">my bio-data</h2>
+                <p>I am Vishvas Solanki. A full stack web developer and freelancer. Professional web app builder using
+                    <span class="mern">MERN</span> stack.
+                </p>
+                <br />
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat odit at repellat.</p>
+                <div class="bio-data-stats">
+                    <div class="bio-stats">
+                        <h3>Design</h3>
+                        <div class="bio-progress-bar">
+                            <span>80%</span>
+                        </div>
+                    </div>
+
+                    <div class="bio-stats">
+                        <h3>HTML</h3>
+                        <div class="bio-progress-bar progress-bar-2">
+                            <span>99%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>CSS</h3>
+                        <div class="bio-progress-bar progress-bar-3">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>JavaScript</h3>
+                        <div class="bio-progress-bar progress-bar-4">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>MERN</h3>
+                        <div class="bio-progress-bar progress-bar-5">
+                            <span>70%</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="bio-data-btn">
+                    <a href="#" class="btn">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ====================
+ Portfolio Section Start
+==================== -->
+
+    <section class="section section-portfolio" id="portfolio-section">
+        <div class="container">
+            <h2 class="common-heading">Latest Works</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem sapiente quos harum non nulla quidem
+                laboriosam, quia itaque.</p>
+        </div>
+
+        <div class="p-btns">
+            <div class="btn p-btn" data-btn-num="1">Websites</div>
+            <div class="btn p-btn" data-btn-num="2">Games</div>
+            <div class="btn p-btn" data-btn-num="3">Clones</div>
+        </div>
+
+        <div class="container grid grid-three-column portfolio-images">
+            <div class="img-overlay p-btn--1 p-btn--3">
+                <img src="images/pfolio/work10.webp" loading="lazy" alt="My work 1" />
+                <div class="overlay">
+                    <a href="Netflix Web/index.html" target="_blank" class="common-heading">Netflix Clone</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--1 p-btn--3">
+                <img src="images/pfolio/work5.webp" loading="lazy" alt="My work 2" />
+                <div class="overlay">
+                    <a href="Somnath/index.html" target="_blank" class="common-heading">SECT</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--1">
+                <img src="images/pfolio/work3.webp" loading="lazy" alt="My work 3" />
+                <div class="overlay">
+                    <a href="Portfolio/index.html" target="_blank" class="common-heading">Portfolio Template</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--2">
+                <img src="images/pfolio/work6.webp" loading="lazy" alt="My work 4" />
+                <div class="overlay">
+                    <a href="SnakeGame/index.html" target="_blank" class="common-heading">SnakeGame</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--2">
+                <img src="images/pfolio/work1.webp" loading="lazy" alt="My work 5" />
+                <div class="overlay">
+                    <a href="Tic Tac Toe/index.html" target="_blank" class="common-heading">Tic Tac Toe</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--1 p-btn--2">
+                <img src="images/pfolio/work2.webp" loading="lazy" alt="My work 6" />
+                <div class="overlay">
+                    <a href="Music Player/index.html" target="_blank" class="common-heading">Music Player</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================
+ Work Counter Section Start
+==================== -->
+
+    <section class="section section-work-data">
+        <div class="container grid grid-four-column">
+            <div>
+                <h2 class="counter-numbers" data-number="3000">0+</h2>
+                <p>Project Completed</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="2000">0+</h2>
+                <p>Happy Clients</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="1000">0+</h2>
+                <p>Cup of Coffee</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="600">0+</h2>
+                <p>Professional Dev</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================
+ Services Section Start
+==================== -->
+
+    <section class="section section-services">
+        <div class="container">
+            <h2 class="common-heading">Services Offer</h2>
+            <p class="services-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat unde est officiis
+                quae eligendi consequatur! Labore.</p>
+        </div>
+
+        <!-- services offer card  -->
+        <div class="container grid grid-three-column">
+            <div class="service-box">
+                <ion-icon name="desktop-sharp" class="service-icon"></ion-icon>
+                <h3>Web Design</h3>
+                <p>"It is not because things are difficult that we do not dare; It is beacause we do not dare that they
+                    are difficult.</p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="logo-react" class="service-icon"></ion-icon>
+                <h3>Web Development</h3>
+                <p>"It is not because things are difficult that we do not dare; It is beacause we do not dare that they
+                    are difficult.</p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="logo-python" class="service-icon"></ion-icon>
+                <h3>Web Scraping </h3>
+                <p>"It is not because things are difficult that we do not dare; It is beacause we do not dare that they
+                    are difficult.</p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="phone-portrait-outline" class="service-icon"></ion-icon>
+                <h3>Mobile App</h3>
+                <p>"It is not because things are difficult that we do not dare; It is beacause we do not dare that they
+                    are difficult.</p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="globe-outline" class="service-icon"></ion-icon>
+                <h3>Web Services</h3>
+                <p>"It is not because things are difficult that we do not dare; It is beacause we do not dare that they
+                    are difficult.</p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="logo-nodejs" class="service-icon"></ion-icon>
+                <h3>Backend Integration</h3>
+                <p>"It is not because things are difficult that we do not dare; It is beacause we do not dare that they
+                    are difficult.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ====================
+ Resume Section Start
+==================== -->
+
+
+
+
+    <!-- ====================
+ Testimonial Section Start
+==================== -->
+
+    <section class="section section-testimonial">
+        <div class="container">
+            <h2 class="common-heading">Our Happy Clients</h2>
+        </div>
+
+
+        <!-- Swiper -->
+        <div class="swiper mySwiper container">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>
+                            Mike: You know sometimes when I'm talking, my words can't keep up with my thoughts... I
+                            wonder why we think faster then we speak. Me: Probably so we can think twice.
+                        </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/client1.jpg" alt="Client Image" loading="lazy">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>V. Solanki</p>
+                            <p>Entrepreneure</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>
+                            Mike: You know sometimes when I'm talking, my words can't keep up with my thoughts... I
+                            wonder why we think faster then we speak. Me: Probably so we can think twice.
+                        </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/client2.jpg" alt="Client Image" loading="lazy">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>Branden Mike</p>
+                            <p>Entrepreneure</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>
+                            Mike: You know sometimes when I'm talking, my words can't keep up with my thoughts... I
+                            wonder why we think faster then we speak. Me: Probably so we can think twice.
+                        </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/client1.jpg" alt="Client Image" loading="lazy">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>V. Solanki</p>
+                            <p>Entrepreneure</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>
+                            Mike: You know sometimes when I'm talking, my words can't keep up with my thoughts... I
+                            wonder why we think faster then we speak. Me: Probably so we can think twice.
+                        </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/client2.jpg" alt="Client Image" loading="lazy">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>V. Solanki</p>
+                            <p>Entrepreneure</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>
+                            Mike: You know sometimes when I'm talking, my words can't keep up with my thoughts... I
+                            wonder why we think faster then we speak. Me: Probably so we can think twice.
+                        </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/client1.jpg" alt="Client Image" loading="lazy">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>V. Solanki</p>
+                            <p>Entrepreneure</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>
+                            Mike: You know sometimes when I'm talking, my words can't keep up with my thoughts... I
+                            wonder why we think faster then we speak. Me: Probably so we can think twice.
+                        </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/client2.jpg" alt="Client Image" loading="lazy">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>V. Solanki</p>
+                            <p>Entrepreneure</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>
+                            Mike: You know sometimes when I'm talking, my words can't keep up with my thoughts... I
+                            wonder why we think faster then we speak. Me: Probably so we can think twice.
+                        </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/client1.jpg" alt="Client Image" loading="lazy">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>V. Solanki</p>
+                            <p>Entrepreneure</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>
+                            Mike: You know sometimes when I'm talking, my words can't keep up with my thoughts... I
+                            wonder why we think faster then we speak. Me: Probably so we can think twice.
+                        </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/client2.jpg" alt="Client Image" loading="lazy">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>V. Solanki</p>
+                            <p>Entrepreneure</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>
+                            Mike: You know sometimes when I'm talking, my words can't keep up with my thoughts... I
+                            wonder why we think faster then we speak. Me: Probably so we can think twice.
+                        </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/client1.jpg" alt="Client Image" loading="lazy">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>V. Solanki</p>
+                            <p>Entrepreneure</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+
+
+    <!-- ====================
+ Freelancing Section Start
+==================== -->
+
+    <section class="section section-freelancing">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>I am <span>available</span> for freelancing</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam dolorum dicta, placeat nam velit
+                necessitatibus.</p>
+            <a href="/contact.html" class="btn">HIRE ME</a>
+        </div>
+    </section>
+
+
+
+
+    <!-- ====================
+ Contact Section Start
+==================== -->
+
+    <section class="section section-contact">
+        <div class="container">
+            <h2 class="common-heading">Contact Us</h2>
+        </div>
+
+        <div class="section-contact-main contact-container">
+            <form action="https://formspree.io/f/xqakadlr"
+            method="POST">
+                <div class="grid grid-two-column">
+                    <div>
+                        <label for="username"></label>
+                        <input type="text" name="username" placeholder="Username" id="username" required autocomplete="off">
+                    </div>
+                    <div>
+                        <label for="email"></label>
+                        <input type="email" name="email" placeholder="Email" id="email" autocomplete="off" required>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="subject"></label>
+                    <input type="text" placeholder="Subject" name="subject" required autocomplete="off">
+                </div>
+                <div>
+                    <label for="textarea"></label>
+                    <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Message" required minlength="10"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" name="submit" id="submit" class="btn" value="Send Message">
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+
+    <!-- ====================
+ Footer Section Start
+==================== -->
+
+    <footer class="section section-footer">
+        <div class="container grid grid-four-column">
+            <div class="f-about">
+                <h3>About</h3>
+                <p>We have tested a number of developers fix and clean utilities and present our top 3 website list on
+                    our site.</p>
+            </div>
+            <!-- end  -->
+            <div class="f-links">
+                <h3>Links</h3>
+                <ul>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end  -->
+
+            <div class="f-services">
+                <h3>Services</h3>
+                <ul>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">Web Design</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">Mobile App</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">Web Services</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">Scraping</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">Backend</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end  -->
+            <div class="f-address">
+                <h3>Have a question?</h3>
+                <address>
+                    <div>
+                        <p>
+                            <span><ion-icon name="location-outline"></ion-icon></span>
+                            Somnath, India
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <span><ion-icon name="call-outline"></ion-icon></span>
+                            <a href="tel:+6354436683">+91 6354436683</a>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <span><ion-icon name="mail-outline"></ion-icon></span>
+                            <a href="mailto:solankivishvas728@gmail.com">info@google.com</a>
+                        </p>
+                    </div>
+                </address>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="f-social-icons">
+                <a href="https://www.instagram.com/vishvas_solanki_8/" target="_blank"><ion-icon name="logo-instagram"
+                        class="icons"></ion-icon></a>
+
+                <a href="https://www.facebook.com/vishvash.solanki.1" target="_blank"><ion-icon name="logo-facebook"
+                        class="icons"></ion-icon></a>
+
+                <a href="https://www.youtube.com/@developer_vishvas" target="_blank"><ion-icon name="logo-youtube"
+                        class="icons"></ion-icon></a>
+            </div>
+
+
+            <div class="f-credit">
+                <p>Copyright &copy;2024 All right reserved | This site is made with ❤️ by Vishvas Solanki.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- ====================
+ JavaScript Section Start
+==================== -->
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>
